@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+nav {
+    height: 64px;
+    background-color: green;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+
+.logo p {
+    text-transform: uppercase;
+}
+
+.logo span {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline-block;
+}
