@@ -74,13 +74,21 @@ nav li {
     color: white;
     text-align: center;
     padding: 8px 0;
+
+    transition: opacity 500ms ease-in,
+    letter-spacing 500ms ease-out,
+    word-spacing 250ms ease-out;
 }
 
 .start .button a {
     color: white;
 }
 
-
+.start .button:hover {
+    opacity: 0.7;
+    letter-spacing: 0.3em;
+    word-spacing: 0.3em;
+}
 
 
 /* article section */
@@ -91,7 +99,6 @@ nav li {
 
 .left-side {
     width: 60%;
-
 }
 
 .container {
@@ -116,6 +123,12 @@ nav li {
 .box {
     display: flex;
     align-items: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.box:hover {
+    background-color: lightgray;
 }
 
 .right-side .border {
