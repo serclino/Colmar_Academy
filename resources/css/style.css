@@ -42,6 +42,8 @@ nav .logo {
 
 .logo p {
     text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 1.25em;
 }
 
 .logo span {
@@ -74,9 +76,8 @@ nav li {
     color: white;
     text-align: center;
     padding: 8px 0;
-
-    transition: opacity 500ms ease-in,
-    letter-spacing 500ms ease-out,
+    transition: opacity 250ms ease-in,
+    letter-spacing 250ms ease-out,
     word-spacing 250ms ease-out;
 }
 
@@ -85,7 +86,7 @@ nav li {
 }
 
 .start .button:hover {
-    opacity: 0.7;
+    opacity: 0.8;
     letter-spacing: 0.3em;
     word-spacing: 0.3em;
 }
@@ -150,10 +151,55 @@ nav li {
     width: 65%;
 }
 
-.box .text h4 {
+.text h4 {
     margin-bottom: 8px;
 }
 
-.box .text p {
+.text p {
     margin: 8px 0;
+}
+
+
+
+
+/* courses */
+
+.learning_section {
+    background-color: lightgray;
+    padding: 32px 72px;
+}
+
+.learning_section h3 {
+    text-align: center;
+    margin: 0;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course {
+    background-color: white;
+    width: 31.5%;
+    margin-top: 32px;
+    transition: background-color 500ms ease-in;
+}
+
+.course:hover {
+    background-color: lightskyblue;
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+}
+
+.course .text {
+    margin: 16px 16px 24px 16px;
+}
+
+.middle {
+    margin-right: 32px;
+    margin-left: 32px;
 }
