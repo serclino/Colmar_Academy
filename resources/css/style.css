@@ -169,7 +169,7 @@ nav li {
     padding: 32px 72px;
 }
 
-.learning_section h3 {
+.learning_section h2 {
     text-align: center;
     margin: 0;
 }
@@ -183,7 +183,7 @@ nav li {
     background-color: white;
     width: 31.5%;
     margin-top: 32px;
-    transition: background-color 500ms ease-in;
+    transition: background-color 250ms ease-in;
 }
 
 .course:hover {
@@ -202,4 +202,84 @@ nav li {
 .middle {
     margin-right: 32px;
     margin-left: 32px;
+}
+
+
+/* thesis exhibit */
+
+.thesis_exhibit {
+    background-color: lightseagreen;
+    margin: 32px 0px;
+}
+
+.container_A {
+    display: flex;
+}
+
+.container_B1 {
+    background-color: lightskyblue;
+    width: 60%;
+    margin: 0px 24px;
+}
+
+.container_C1 video {
+    width: 100%;
+    height: auto;
+}
+
+.container_B2 {
+    background-color: lime;
+    width: 40%;
+}
+
+.container_C2 {
+    display: flex;
+    align-items: center;
+}
+
+.container_D1 {
+    width: 35%;
+    background-color: salmon;
+    margin: 16px;
+}
+
+.container_D1 img {
+    width: 100%;
+    height: auto;
+}
+
+.container_D2 {
+    background-color: rebeccapurple;
+    width: 65%;
+    margin: 16px 0px;
+}
+
+
+
+
+/* styling textu*/
+
+h6 {
+    font-size: 1.2rem;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.container_B1 p,
+.container_D2 p {
+    margin: 0px;
+}
+
+
+h5 {
+    font-size: 1.2rem;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+#h4 { /* až vyladíme styling textu, tak ID přemazat na targeting <h4>*/
+    margin-top: 0px;
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 2rem;
 }
