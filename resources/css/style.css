@@ -58,110 +58,6 @@ nav li {
 
 
 
-
-/* start */
-
-.start {
-    background-color: lightgray;
-    display: flex;
-    align-items: center;
-}
-
-.start .welcome-text {
-    margin-left: 16px;
-}
-
-.start .button {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 8px 0;
-    transition: opacity 250ms ease-in,
-    letter-spacing 250ms ease-out,
-    word-spacing 250ms ease-out;
-}
-
-.start .button a {
-    color: white;
-}
-
-.start .button:hover {
-    opacity: 0.8;
-    letter-spacing: 0.3em;
-    word-spacing: 0.3em;
-}
-
-
-/* article section */
-
-.article-section {
-    display: flex;
-}
-
-.left-side {
-    width: 60%;
-}
-
-.container {
-    margin: 32px 24px;
-}
-
-.container img {
-    width: 100%;
-    height: auto;
-}
-
-.container h3 {
-    margin-bottom: 24px;
-}
-
-.right-side {
-    width: 40%;
-    padding: 32px 0;
-    border-left: 1px solid lightgray;
-}
-
-.box {
-    display: flex;
-    align-items: center;
-    transition-property: background-color;
-    transition-duration: 0.5s;
-}
-
-.box:hover {
-    background-color: lightgray;
-}
-
-.right-side .border {
-    border-top: 3px double lightgray;
-    border-bottom: 3px double lightgray;
-}
-
-.box .small_picture {
-    margin: 16px;
-    width: 35%;
-}
-
-.box .small_picture img {
-    width: 100%;
-    height: auto;
-}
-
-.box .text {
-    width: 65%;
-}
-
-.text h4 {
-    margin-bottom: 8px;
-}
-
-.text p {
-    margin: 8px 0;
-}
-
-
-
-
 /* courses */
 
 .learning_section {
@@ -208,7 +104,6 @@ nav li {
 /* thesis exhibit */
 
 .thesis_exhibit {
-    background-color: lightseagreen;
     margin: 32px 0px;
 }
 
@@ -217,7 +112,6 @@ nav li {
 }
 
 .container_B1 {
-    background-color: lightskyblue;
     width: 60%;
     margin: 0px 24px;
 }
@@ -228,18 +122,22 @@ nav li {
 }
 
 .container_B2 {
-    background-color: lime;
     width: 40%;
 }
 
 .container_C2 {
     display: flex;
     align-items: center;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.container_C2:hover {
+    background-color: lightgrey;
 }
 
 .container_D1 {
     width: 35%;
-    background-color: salmon;
     margin: 16px;
 }
 
@@ -249,11 +147,70 @@ nav li {
 }
 
 .container_D2 {
-    background-color: rebeccapurple;
     width: 65%;
     margin: 16px 0px;
 }
 
+
+
+/* Articles */
+.container_C1 img {
+    width: 100%;
+    height: auto;
+}
+
+.articles .container_D2 p {
+    margin-bottom: 8px;
+}
+
+.second {
+    border-top: 3px double lightgrey;
+    border-bottom: 3px double lightgrey;
+}
+
+.right {
+    border-left: 1px solid lightgrey;
+    padding: 32px 0;
+}
+
+.left {
+    padding: 32px 0;
+}
+
+
+
+/* Start */
+.start_section {
+    background-color: lightgrey;
+    padding: 32px 0px;
+}
+
+.start_section .button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    transition: opacity 250ms ease-in,
+    letter-spacing 250ms ease-out,
+    word-spacing 250ms ease-out;
+    width: 60%;
+}
+
+.start_section .button:hover {
+    opacity: 0.8;
+    letter-spacing: 0.3em;
+    word-spacing: 0.3em;
+}
+
+.start_section .button a {
+    color: white;
+}
+
+.uvod {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 
 
@@ -281,5 +238,21 @@ h5 {
     margin-top: 0px;
     margin-bottom: 32px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-weight: normal;
+    margin: 22px 0px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0px;
 }
