@@ -11,15 +11,8 @@ a {
     text-decoration: none;
 }
 
-.image-container {
-    width: 60%;
-    height: auto;
-    margin: 32px 24px;
-}
-
-.big-image {
-    width: 100%;
-    height: auto;
+p {
+    margin: 0px;
 }
 
 
@@ -56,49 +49,6 @@ nav li {
     margin-left: 16px;
 }
 
-
-
-/* courses */
-
-.learning_section {
-    background-color: lightgray;
-    padding: 32px 72px;
-}
-
-.learning_section h2 {
-    text-align: center;
-    margin: 0;
-}
-
-.courses {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.course {
-    background-color: white;
-    width: 31.5%;
-    margin-top: 32px;
-    transition: background-color 250ms ease-in;
-}
-
-.course:hover {
-    background-color: lightskyblue;
-}
-
-.course img {
-    width: 100%;
-    height: auto;
-}
-
-.course .text {
-    margin: 16px 16px 24px 16px;
-}
-
-.middle {
-    margin-right: 32px;
-    margin-left: 32px;
-}
 
 
 /* thesis exhibit */
@@ -217,10 +167,9 @@ nav li {
 footer {
     display: flex;
     align-items: flex-start;
-    padding: 0px 24px;
+    padding: 16px 24px;
     border-top: 1px solid lightgrey;
-    margin-top: 16px;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
 }
 
 footer p {
@@ -232,6 +181,50 @@ footer a {
 }
 
 
+/* Learning */
+.learning {
+    padding: 32px 72px 0px 72px;
+    background-color: lightgrey;
+}
+
+.container_1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container_2 {
+    background-color: white;
+    margin-bottom: 32px;
+    flex: 1 0 30%;
+    transition-property: background-color;
+    transition-duration: 250ms;
+}
+
+.container_2:hover {
+    background-color: seagreen;
+}
+
+.container_2 img {
+    width: 100%;
+    height: auto;
+}
+
+.middle {
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.text-box {
+    margin: 16px 16px 24px 16px;
+}
+
+.kurzy {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+
+
 /* styling textu*/
 
 h6 {
@@ -239,12 +232,6 @@ h6 {
     margin-top: 24px;
     margin-bottom: 8px;
 }
-
-.container_B1 p,
-.container_D2 p {
-    margin: 0px;
-}
-
 
 h5 {
     font-size: 1.2rem;
