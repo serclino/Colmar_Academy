@@ -213,6 +213,24 @@ nav li {
 }
 
 
+/* footer */
+footer {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 24px;
+    border-top: 1px solid lightgrey;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+footer p {
+    flex-grow: 1;
+}
+
+footer a {
+    margin-left: 16px;
+}
+
 
 /* styling textu*/
 
