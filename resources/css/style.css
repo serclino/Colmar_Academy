@@ -16,6 +16,15 @@ p {
 }
 
 
+.mobile ul { /* tohle pak předělat*/
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    width: 100%;
+}
+
 
 /* navigation */
 
@@ -142,7 +151,8 @@ nav li {
     padding: 8px 0;
     transition: opacity 250ms ease-in,
     letter-spacing 250ms ease-out,
-    word-spacing 250ms ease-out;
+    word-spacing 250ms ease-out,
+    background-color 250ms ease-in;
     width: 60%;
 }
 
@@ -150,6 +160,7 @@ nav li {
     opacity: 0.8;
     letter-spacing: 0.3em;
     word-spacing: 0.3em;
+    background-color: seagreen;
 }
 
 .start_section .button a {
