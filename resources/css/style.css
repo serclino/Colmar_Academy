@@ -16,30 +16,29 @@ p {
 }
 
 
-.mobile ul { /* tohle pak předělat*/
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    align-items: center;
-    height: 64px;
-    width: 100%;
-}
-
 
 /* navigation */
-
-nav {
+.content {
     height: 64px;
+    margin: 0 24px;
+}
+
+.content .desktop {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 24px;
+    position: relative;
+    top: 7px;
 }
 
-nav .logo {
+.desktop .logo {
     display: flex;
-    align-items: center;
     height: 32px;
+    align-items: center;
+}
+
+.logo span {
+    font-weight: bold;
 }
 
 .logo p {
@@ -48,16 +47,33 @@ nav .logo {
     font-size: 1.25em;
 }
 
-.logo span {
-    font-weight: bold;
+.desktop ul {
+    display: flex;
+    list-style-type: none;
 }
 
-nav li {
-    display: inline-block;
-    color: black;
+.desktop li {
     margin-left: 16px;
+    color: black;
 }
 
+.content .mobile {
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .content .desktop {
+        display: none;
+    }
+
+    .content .mobile {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: 16px;
+    }
+}
 
 
 /* thesis exhibit */
