@@ -151,6 +151,26 @@ p {
     padding: 32px 0;
 }
 
+@media only screen and (max-width: 600px) {
+    .articles .container_A {
+        display: none;
+    }
+
+    .articles .mobile {
+        display: block;
+        padding: 16px 16px 32px 16px;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    .container-mob .container_D2 {
+        margin: 16px 0px 0px 16px;
+    }
+
+    .mobile .střed {
+        margin: 64px 0px;
+    }
+}
+
 
 
 /* Start */
