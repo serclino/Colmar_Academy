@@ -257,6 +257,9 @@ footer a {
 }
 
 
+
+
+
 /* Learning */
 .learning {
     padding: 32px 72px 0px 72px;
@@ -299,6 +302,27 @@ footer a {
     text-transform: uppercase;
 }
 
+@media only screen and (max-width: 600px) {
+    .learning {
+        display: none;
+    }
+
+    .learning-mob .mobile {
+        display: block;
+        padding: 32px 16px;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    .learning-mob h4 {
+        margin-bottom: 16px;
+    }
+
+    .learning-mob .tlačítko {
+        padding: 16px;
+        background-color: lightgrey;
+        margin-bottom: 8px;
+    }
+}
 
 
 /* styling textu*/
@@ -315,7 +339,7 @@ h5 {
     margin-bottom: 8px;
 }
 
-#h4 { /* až vyladíme styling textu, tak ID přemazat na targeting <h4>*/
+h4 { /* až vyladíme styling textu, tak ID přemazat na targeting <h4>*/
     margin-top: 0px;
     margin-bottom: 32px;
     text-align: center;
