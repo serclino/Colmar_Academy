@@ -21,6 +21,18 @@ p {
 
 
 /* navigation */
+header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-page {
+    position: relative;
+    top: 64px;
+}
+
 .content {
     height: 64px;
     margin: 0 24px;
@@ -272,6 +284,17 @@ footer a {
     margin-left: 16px;
 }
 
+@media only screen and (max-width: 600px) {
+    footer {
+        padding: 16px;
+        margin: 0px;
+        border-top: none;
+    }
+
+    footer a {
+        display: none;
+    }
+}
 
 
 
@@ -337,6 +360,24 @@ footer a {
         padding: 16px;
         background-color: lightgrey;
         margin-bottom: 8px;
+    }
+
+    .tlačítko a {
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .learning {
+        padding-bottom: 32px;
+    }
+
+    .container_1 {
+        display: block;
+    }
+
+    .container_1 .middle {
+        margin: 0px 0px 32px 0px;
     }
 }
 
