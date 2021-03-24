@@ -125,6 +125,22 @@ p {
     margin: 16px 0px;
 }
 
+@media only screen and (max-width: 600px) {
+    .thesis_exhibit {
+        display: none;
+    }
+
+    .thesis-mob .mobile {
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 24px;
+    }
+
+    .thesis-mob h4 {
+        margin-bottom: 16px;
+    }
+}
+
 
 
 /* Articles */
